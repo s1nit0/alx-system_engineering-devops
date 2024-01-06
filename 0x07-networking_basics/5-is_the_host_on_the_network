@@ -8,7 +8,7 @@ IP="${1}"
 fn=$(basename "${BASH_SOURCE[@]}")
 
 if ! [ "$IP" ]; then
-	echo "Usage: ${fn} {IP_ADDRESS}"
-else
-	ping -c 5 "${IP}"
+		echo "Usage: ${fn} {IP_ADDRESS}"
+	else
+			ping -c 5 "${IP}"
 fi
